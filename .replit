@@ -1,7 +1,7 @@
 compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
 run = ["java", "-classpath", ".:target/dependency/*", "Main"]
 
-entrypoint = "src/main/java/com/example/application/views/main/MainView.java"
+entrypoint = ".src/main/java/com/example/application/views/main/MainView.java"
 hidden = ["**/*.class"]
 
 [packager]
@@ -57,4 +57,4 @@ type = "request"
 
 [debugger.interactive.launchMessage.arguments]
 classPaths = ["."]
-mainClass = "Main"
+mainClass = "MainView"
