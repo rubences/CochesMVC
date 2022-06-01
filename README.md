@@ -1,0 +1,2 @@
+# ProyectoTecnicas
+ Ejercicio ordinaria
